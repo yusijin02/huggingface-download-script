@@ -1,0 +1,7 @@
+id: MODEL_OR_DATASET_ID
+is_dataset: True    # Set it `True` if you are downloading a dataset. Set it `False` if you are downloading a model.
+num_threads: 2      # (Optional) Numbers of multiple threads.
+exclude: null       # (Optional) Flag to specify a string pattern to exclude files from downloading.
+hf_username: null   # (Optional) Hugging Face username for authentication.
+hf_token: null      # (Optional) Hugging Face token for authentication.
+tool: null          # (Optional) Download tool to use. Can be wget (default) or aria2c.
